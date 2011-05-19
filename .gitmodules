@@ -1,0 +1,18 @@
+[submodule "openembedded"]
+	path = openembedded
+	url = git://git.openembedded.org/openembedded
+[submodule "openembedded-core"]
+	path = openembedded-core
+	url = git://git.openembedded.org/openembedded-core
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+[submodule "meta-angstrom"]
+	path = meta-angstrom
+	url = git://git.angstrom-distribution.org/meta-angstrom
+[submodule "meta-texasinstruments"]
+	path = meta-texasinstruments
+	url = git://git.angstrom-distribution.org/meta-texasinstruments
+[submodule "meta-smartphone"]
+	path = meta-smartphone
+	url = http://git.shr-project.org/repo/meta-smartphone.git
