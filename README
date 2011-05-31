@@ -10,4 +10,8 @@ to use:
  - git submodule foreach "git fetch" (pull down the latest repo data for each project)
  - node ./tools/git-weekly-changelog.js (email out weekly changelog reports, based on origin/master in each project)
 
+to develop:
+  - cd tools
+    - npm install expresso
+    - express (run unit tests)
 
