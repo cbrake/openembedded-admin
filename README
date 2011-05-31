@@ -12,5 +12,5 @@ to use:
 to develop:
   - cd tools
     - npm install expresso
-    - express (run unit tests)
+    - expresso (run unit tests)
 
