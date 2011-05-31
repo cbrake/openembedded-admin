@@ -1,6 +1,3 @@
-[submodule "openembedded"]
-	path = openembedded
-	url = git://git.openembedded.org/openembedded
 [submodule "openembedded-core"]
 	path = openembedded-core
 	url = git://git.openembedded.org/openembedded-core
@@ -16,3 +13,19 @@
 [submodule "meta-smartphone"]
 	path = meta-smartphone
 	url = http://git.shr-project.org/repo/meta-smartphone.git
+[submodule "meta-micro"]
+	path = meta-micro
+	url = git://git.openembedded.org/meta-micro
+[submodule "meta-slugos"]
+	path = meta-slugos
+	url = git://github.com/kraj/meta-slugos
+[submodule "meta-nslu2"]
+	path = meta-nslu2
+	url = git://github.com/kraj/meta-nslu2
+[submodule "meta-intel"]
+	path = meta-intel
+	url = git://git.yoctoproject.org/meta-intel
+[submodule "openembedded"]
+	path = openembedded
+	url = git://git.openembedded.org/openembedded
+
