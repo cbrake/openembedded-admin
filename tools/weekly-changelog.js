@@ -1,6 +1,6 @@
 // script to collect the weekly changelog in a git repo
 
-var testing = true;
+var testing = false;
 var email_to = '';
 var email_bcc = 'cbrake@bec-systems.com,';
 
