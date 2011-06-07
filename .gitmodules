@@ -7,6 +7,9 @@
 [submodule "meta-angstrom"]
 	path = meta-angstrom
 	url = git://git.angstrom-distribution.org/meta-angstrom
+[submodule "meta-yocto"]
+	path = meta-yocto
+	url = git://git.yoctoproject.org/poky
 [submodule "meta-texasinstruments"]
 	path = meta-texasinstruments
 	url = git://git.angstrom-distribution.org/meta-texasinstruments
@@ -28,4 +31,3 @@
 [submodule "openembedded"]
 	path = openembedded
 	url = git://git.openembedded.org/openembedded
-
