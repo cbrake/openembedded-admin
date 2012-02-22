@@ -5,8 +5,8 @@ var email_to = '';
 var email_bcc = 'cbrake@bec-systems.com,';
 
 if (!testing) {
-  email_bcc += 'beagleboard@googlegroups.com';
-  email_to += 'openembedded-core@lists.openembedded.org, openembedded-devel@lists.openembedded.org, angstrom-distro-devel@linuxtogo.org';
+  //email_bcc += 'beagleboard@googlegroups.com';
+  email_to += 'openembedded-core@lists.openembedded.org, openembedded-devel@lists.openembedded.org, angstrom-distro-devel@linuxtogo.org, meta-ti@yoctoproject.org';
 }
 
 var path = require('path'),

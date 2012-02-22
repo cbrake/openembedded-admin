@@ -31,7 +31,54 @@
 [submodule "meta-intel"]
 	path = meta-intel
 	url = git://git.yoctoproject.org/meta-intel
+[submodule "meta-handheld"]
+	path = meta-handheld
+	url = git://git.openembedded.org/meta-handheld
+[submodule "meta-opie"]
+	path = meta-opie
+	url = git://git.openembedded.org/meta-opie
 [submodule "openembedded"]
 	path = openembedded
 	url = git://git.openembedded.org/openembedded
-
+[submodule "meta-bug"]
+	path = meta-bug
+	url = git://github.com/buglabs/meta-bug.git
+[submodule "meta-efikamx"]
+	path = meta-efikamx
+	url = git://github.com/kraj/meta-efikamx.git
+[submodule "meta-gumstix"]
+	path = meta-gumstix
+	url = git://gitorious.org/schnitzeltony-oe-meta/meta-gumstix.git
+[submodule "meta-ettus"]
+	path = meta-ettus
+	url = http://github.com/koenkooi/meta-ettus.git
+[submodule "meta-fsl-ppc"]
+	path = meta-fsl-ppc
+	url = git://git.yoctoproject.org/meta-fsl-ppc
+[submodule "meta-igep"]
+	path = meta-igep
+	url = http://github.com/ebutera/meta-igep.git
+[submodule "meta-netbookpro"]
+	path = meta-netbookpro
+	url = git://github.com/tworaz/meta-netbookpro
+[submodule "meta-xilinx"]
+	path = meta-xilinx
+	url = git://git.yoctoproject.org/meta-xilinx
+[submodule "meta-chicken"]
+	path = meta-chicken
+	url = git://github.com/OSSystems/meta-chicken
+[submodule "meta-java"]
+	path = meta-java
+	url = git://github.com/woglinde/meta-java
+[submodule "meta-mozilla"]
+	path = meta-mozilla
+	url = git://github.com/OSSystems/meta-mozilla
+[submodule "meta-qt3"]
+	path = meta-qt3
+	url = git://git.yoctoproject.org/meta-qt3
+[submodule "meta-telephony"]
+	path = meta-telephony
+	url = git://gitorious.org/sysmocom-openembedded/meta-telephony.git
+[submodule "meta-eldk"]
+	path = meta-eldk
+	url = git://git.denx.de/eldk.git
