@@ -1,6 +1,6 @@
 // script to collect the weekly changelog in a git repo
 
-var testing = false;
+var testing = true;
 var email_to = '';
 var email_bcc = 'cbrake@bec-systems.com,';
 
@@ -14,7 +14,8 @@ var path = require('path'),
     fs = require('fs'),
     nodemailer = require('nodemailer'),
     git = require('./git'),
-    dateutil = require('./dateutil');
+    dateutil = require('./dateutil'),
+    config = require('./config').config
 
 String.prototype.format = function() {
     var formatted = this;
@@ -45,24 +46,30 @@ var format_report = function(projects, weekly_data) {
 }
 
 var email_report = function(report) {
-  nodemailer.send_mail(
-    {
-      sender: "cliff.brake@gmail.com",
-      to: email_to,
-      bcc: email_bcc,
-      subject: "OE Changelog for " + dateutil.last_week_text(),
-      body: report
-    },
-    function(error, success) {
-      console.log("Message " + (success?"sent":"failed"));
+  console.log("send email ...")
+  var transport = nodemailer.createTransport(config.email.transport.type, config.email.transport.options)
+  var mailOptions = {
+    from: config.email.from,
+    to: email_to,
+    bcc: email_bcc,
+    subject: "OE Changelog " + dateutil.last_week_text(),
+    text: report
+  }
+
+  transport.sendMail(mailOptions, function(error, response) {
+    if (error) {
+      console.log("Failed to send email: " + response)
+    } else {
+      console.log("mail sent: " + response.message)
     }
-  );
+  })
 }
 
 var run_changelog = function(projects) {
   var output = {};
   var count = Object.keys(projects).length;
   var lastwk = dateutil.last_week();
+  console.log("start = " + lastwk.start + " end = " + lastwk.end)
   var project;
   for (project in projects) {
     // function required to preserve the value of project
@@ -75,6 +82,7 @@ var run_changelog = function(projects) {
             console.log('changelog error: ' + err);
           } else {
             output[project] = changelog;
+            console.log("changelog finished for " + project)
           }
           count--;
           if (count === 0) {
