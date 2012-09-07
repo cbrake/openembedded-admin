@@ -7,9 +7,6 @@
 [submodule "meta-openembedded"]
 	path = meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
-[submodule "meta-yocto"]
-	path = meta-yocto
-	url = git://git.yoctoproject.org/poky
 [submodule "meta-smartphone"]
 	path = meta-smartphone
 	url = http://git.shr-project.org/repo/meta-smartphone.git
@@ -70,9 +67,6 @@
 [submodule "meta-telephony"]
 	path = meta-telephony
 	url = git://gitorious.org/sysmocom-openembedded/meta-telephony.git
-[submodule "meta-eldk"]
-	path = meta-eldk
-	url = git://git.denx.de/eldk.git
 [submodule "meta-ti"]
 	path = meta-ti
 	url = git://git.yoctoproject.org/meta-ti
@@ -91,3 +85,9 @@
 [submodule "meta-kde"]
 	path = meta-kde
 	url = git://gitorious.org/openembedded-core-layers/meta-kde.git
+[submodule "meta-yocto"]
+	path = meta-yocto
+	url = git://git.yoctoproject.org/meta-yocto
+[submodule "meta-webos"]
+	path = meta-webos
+	url = git://github.com/openwebos/meta-webos.git

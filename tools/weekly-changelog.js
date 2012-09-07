@@ -1,6 +1,6 @@
 // script to collect the weekly changelog in a git repo
 
-var testing = true;
+var testing = false;
 var email_to = '';
 var email_bcc = 'cbrake@bec-systems.com,';
 
@@ -29,7 +29,7 @@ String.prototype.format = function() {
 var format_report = function(projects, weekly_data) {
     var ret = ''
     // report header
-    ret += "Changelog for " + dateutil.last_week_text() + ".  Projects included in this report:\n\n";
+    ret += "Changelog " + dateutil.last_week_text() + ".  Projects included in this report:\n\n";
     var project;
     for (project in projects) {
       ret += project + ": " + projects[project] + "\n";
