@@ -94,3 +94,9 @@
 [submodule "meta-arago"]
 	path = meta-arago
 	url = git://arago-project.org/git/meta-arago.git
+[submodule "meta-ivi"]
+	path = meta-ivi
+	url = git://git.yoctoproject.org/meta-ivi
+[submodule "meta-systemd"]
+	path = meta-systemd
+	url = git://git.yoctoproject.org/meta-systemd
