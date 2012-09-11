@@ -91,3 +91,6 @@
 [submodule "meta-webos"]
 	path = meta-webos
 	url = git://github.com/openwebos/meta-webos.git
+[submodule "meta-arago"]
+	path = meta-arago
+	url = git://arago-project.org/git/meta-arago.git
