@@ -100,3 +100,9 @@
 [submodule "meta-systemd"]
 	path = meta-systemd
 	url = git://git.yoctoproject.org/meta-systemd
+[submodule "meta-guacamayo"]
+	path = meta-guacamayo
+	url = git://github.com/Guacamayo/meta-guacamayo.git
+[submodule "meta-beagleboard"]
+	path = meta-beagleboard
+	url = git://github.com/beagleboard/meta-beagleboard.git
