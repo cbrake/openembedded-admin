@@ -103,3 +103,15 @@
 [submodule "meta-beagleboard"]
 	path = meta-beagleboard
 	url = git://github.com/beagleboard/meta-beagleboard.git
+[submodule "meta-gumstix"]
+	path = meta-gumstix
+	url = git://github.com/gumstix/meta-gumstix.git
+[submodule "meta-gumstix-community"]
+	path = meta-gumstix-community
+	url = git://gitorious.org/schnitzeltony-oe-meta/meta-gumstix-community.git
+[submodule "meta-fsl-arm"]
+	path = meta-fsl-arm
+	url = git://git.yoctoproject.org/meta-fsl-arm
+[submodule "meta-fsl-arm-extra"]
+	path = meta-fsl-arm-extra
+	url = git://github.com/Freescale/meta-fsl-arm-extra.git
