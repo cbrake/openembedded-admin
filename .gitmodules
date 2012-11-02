@@ -37,9 +37,6 @@
 [submodule "meta-efikamx"]
 	path = meta-efikamx
 	url = git://github.com/kraj/meta-efikamx.git
-[submodule "meta-gumstix"]
-	path = meta-gumstix
-	url = git://gitorious.org/schnitzeltony-oe-meta/meta-gumstix.git
 [submodule "meta-ettus"]
 	path = meta-ettus
 	url = http://github.com/koenkooi/meta-ettus.git
