@@ -7,111 +7,108 @@
 [submodule "meta-openembedded"]
 	path = meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
-[submodule "meta-smartphone"]
-	path = meta-smartphone
-	url = http://git.shr-project.org/repo/meta-smartphone.git
-[submodule "meta-micro"]
-	path = meta-micro
-	url = git://git.openembedded.org/meta-micro
-[submodule "meta-slugos"]
-	path = meta-slugos
-	url = git://github.com/kraj/meta-slugos
-[submodule "meta-nslu2"]
-	path = meta-nslu2
-	url = git://github.com/kraj/meta-nslu2
-[submodule "meta-intel"]
-	path = meta-intel
-	url = git://git.yoctoproject.org/meta-intel
-[submodule "meta-handheld"]
-	path = meta-handheld
-	url = git://git.openembedded.org/meta-handheld
-[submodule "meta-opie"]
-	path = meta-opie
-	url = git://git.openembedded.org/meta-opie
-[submodule "openembedded"]
-	path = openembedded
-	url = git://git.openembedded.org/openembedded
+[submodule "meta-angstrom"]
+	path = meta-angstrom
+	url = git://github.com/Angstrom-distribution/meta-angstrom.git
+[submodule "meta-arago"]
+	path = meta-arago
+	url = git://arago-project.org/git/meta-arago.git
+[submodule "meta-beagleboard"]
+	path = meta-beagleboard
+	url = git://github.com/beagleboard/meta-beagleboard.git
+[submodule "meta-browser"]
+	path = meta-browser
+	url = git://github.com/OSSystems/meta-browser.git
 [submodule "meta-bug"]
 	path = meta-bug
 	url = git://github.com/buglabs/meta-bug.git
+[submodule "meta-chicken"]
+	path = meta-chicken
+	url = git://github.com/OSSystems/meta-chicken
 [submodule "meta-efikamx"]
 	path = meta-efikamx
 	url = git://github.com/kraj/meta-efikamx.git
 [submodule "meta-ettus"]
 	path = meta-ettus
 	url = http://github.com/koenkooi/meta-ettus.git
-[submodule "meta-fsl-ppc"]
+[submodule "meta-fsl-arm"]
+	path = meta-fsl-arm
+	url = git://git.yoctoproject.org/meta-fsl-arm
+[submodule "meta-fsl-arm-extra"]
+	path = meta-fsl-arm-extra
+	url = git://github.com/Freescale/meta-fsl-arm-extra.git[submodule "meta-fsl-ppc"]
 	path = meta-fsl-ppc
 	url = git://git.yoctoproject.org/meta-fsl-ppc
-[submodule "meta-igep"]
-	path = meta-igep
-	url = http://github.com/ebutera/meta-igep.git
-[submodule "meta-netbookpro"]
-	path = meta-netbookpro
-	url = git://github.com/tworaz/meta-netbookpro
-[submodule "meta-xilinx"]
-	path = meta-xilinx
-	url = git://git.yoctoproject.org/meta-xilinx
-[submodule "meta-chicken"]
-	path = meta-chicken
-	url = git://github.com/OSSystems/meta-chicken
-[submodule "meta-java"]
-	path = meta-java
-	url = git://github.com/woglinde/meta-java
-[submodule "meta-qt3"]
-	path = meta-qt3
-	url = git://git.yoctoproject.org/meta-qt3
-[submodule "meta-telephony"]
-	path = meta-telephony
-	url = git://gitorious.org/sysmocom-openembedded/meta-telephony.git
-[submodule "meta-ti"]
-	path = meta-ti
-	url = git://git.yoctoproject.org/meta-ti
-[submodule "meta-angstrom"]
-	path = meta-angstrom
-	url = git://github.com/Angstrom-distribution/meta-angstrom.git
-[submodule "meta-browser"]
-	path = meta-browser
-	url = git://github.com/OSSystems/meta-browser.git
-[submodule "meta-mono"]
-	path = meta-mono
-	url = git://git.yoctoproject.org/meta-mono.git
-[submodule "meta-raspberrypi"]
-	path = meta-raspberrypi
-	url = git://github.com/djwillis/meta-raspberrypi.git
-[submodule "meta-kde"]
-	path = meta-kde
-	url = git://gitorious.org/openembedded-core-layers/meta-kde.git
-[submodule "meta-yocto"]
-	path = meta-yocto
-	url = git://git.yoctoproject.org/meta-yocto
-[submodule "meta-webos"]
-	path = meta-webos
-	url = git://github.com/openwebos/meta-webos.git
-[submodule "meta-arago"]
-	path = meta-arago
-	url = git://arago-project.org/git/meta-arago.git
-[submodule "meta-ivi"]
-	path = meta-ivi
-	url = git://git.yoctoproject.org/meta-ivi
-[submodule "meta-systemd"]
-	path = meta-systemd
-	url = git://git.yoctoproject.org/meta-systemd
 [submodule "meta-guacamayo"]
 	path = meta-guacamayo
 	url = git://github.com/Guacamayo/meta-guacamayo.git
-[submodule "meta-beagleboard"]
-	path = meta-beagleboard
-	url = git://github.com/beagleboard/meta-beagleboard.git
 [submodule "meta-gumstix"]
 	path = meta-gumstix
 	url = git://github.com/gumstix/meta-gumstix.git
 [submodule "meta-gumstix-community"]
 	path = meta-gumstix-community
 	url = git://gitorious.org/schnitzeltony-oe-meta/meta-gumstix-community.git
-[submodule "meta-fsl-arm"]
-	path = meta-fsl-arm
-	url = git://git.yoctoproject.org/meta-fsl-arm
-[submodule "meta-fsl-arm-extra"]
-	path = meta-fsl-arm-extra
-	url = git://github.com/Freescale/meta-fsl-arm-extra.git
+[submodule "meta-handheld"]
+	path = meta-handheld
+	url = git://git.openembedded.org/meta-handheld
+[submodule "meta-igep"]
+	path = meta-igep
+	url = http://github.com/ebutera/meta-igep.git
+[submodule "meta-intel"]
+	path = meta-intel
+	url = git://git.yoctoproject.org/meta-intel
+[submodule "meta-ivi"]
+	path = meta-ivi
+	url = git://git.yoctoproject.org/meta-ivi
+[submodule "meta-java"]
+	path = meta-java
+	url = git://github.com/woglinde/meta-java
+[submodule "meta-kde"]
+	path = meta-kde
+	url = git://gitorious.org/openembedded-core-layers/meta-kde.git
+[submodule "meta-micro"]
+	path = meta-micro
+	url = git://git.openembedded.org/meta-micro
+[submodule "meta-mono"]
+	path = meta-mono
+	url = git://git.yoctoproject.org/meta-mono.git
+[submodule "meta-netbookpro"]
+	path = meta-netbookpro
+	url = git://github.com/tworaz/meta-netbookpro
+[submodule "meta-nslu2"]
+	path = meta-nslu2
+	url = git://github.com/kraj/meta-nslu2
+[submodule "meta-opie"]
+	path = meta-opie
+	url = git://git.openembedded.org/meta-opie
+[submodule "meta-qt3"]
+	path = meta-qt3
+	url = git://git.yoctoproject.org/meta-qt3
+[submodule "meta-slugos"]
+	path = meta-slugos
+	url = git://github.com/kraj/meta-slugos
+[submodule "meta-systemd"]
+	path = meta-systemd
+	url = git://git.yoctoproject.org/meta-systemd
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = git://github.com/djwillis/meta-raspberrypi.git
+[submodule "meta-smartphone"]
+	path = meta-smartphone
+	url = http://git.shr-project.org/repo/meta-smartphone.git
+[submodule "meta-ti"]
+	path = meta-ti
+	url = git://git.yoctoproject.org/meta-ti
+[submodule "meta-webos"]
+	path = meta-webos
+	url = git://github.com/openwebos/meta-webos.git
+[submodule "meta-xilinx"]
+	path = meta-xilinx
+	url = git://git.yoctoproject.org/meta-xilinx
+[submodule "meta-yocto"]
+	path = meta-yocto
+	url = git://git.yoctoproject.org/meta-yocto
+[submodule "openembedded"]
+	path = openembedded
+	url = git://git.openembedded.org/openembedded
+
