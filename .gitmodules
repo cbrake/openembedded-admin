@@ -85,6 +85,9 @@
 [submodule "meta-qt3"]
 	path = meta-qt3
 	url = git://git.yoctoproject.org/meta-qt3
+[submodule "meta-qt5"]
+	path = meta-qt5
+	url = git://github.com/meta-qt5/meta-qt5.git
 [submodule "meta-slugos"]
 	path = meta-slugos
 	url = git://github.com/kraj/meta-slugos
@@ -113,6 +116,3 @@
 	path = openembedded
 	url = git://git.openembedded.org/openembedded
 
-[submodule "meta-qt5"]
-	path = meta-qt5
-	url = git://github.com/meta-qt5/meta-qt5.git
