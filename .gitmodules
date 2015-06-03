@@ -80,6 +80,9 @@
 [submodule "meta-netbookpro"]
 	path = meta-netbookpro
 	url = git://github.com/tworaz/meta-netbookpro
+[submodule "meta-nodejs"]
+	path = meta-nodejs
+	url = https://github.com/imyller/meta-nodejs.git
 [submodule "meta-nslu2"]
 	path = meta-nslu2
 	url = git://github.com/kraj/meta-nslu2
@@ -121,3 +124,7 @@
 	url = git://git.openembedded.org/openembedded
 
 
+
+[submodule "meta-jetson-tk1"]
+	path = meta-jetson-tk1
+	url = https://github.com/cubicool/meta-jetson-tk1.git
