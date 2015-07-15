@@ -49,10 +49,10 @@
 [submodule "meta-gumstix"]
 	path = meta-gumstix
 	url = git://github.com/gumstix/meta-gumstix.git
-        branch = dylan
+        branch = next
 [submodule "meta-gumstix-community"]
 	path = meta-gumstix-community
-	url = git://gitorious.org/schnitzeltony-oe-meta/meta-gumstix-community.git
+	url = https://github.com/schnitzeltony/meta-gumstix-community.git
 [submodule "meta-handheld"]
 	path = meta-handheld
 	url = git://git.openembedded.org/meta-handheld
@@ -68,6 +68,9 @@
 [submodule "meta-java"]
 	path = meta-java
 	url = git://github.com/woglinde/meta-java
+[submodule "meta-jetson-tk1"]
+	path = meta-jetson-tk1
+	url = https://github.com/cubicool/meta-jetson-tk1.git
 [submodule "meta-kde"]
 	path = meta-kde
 	url = git://gitorious.org/openembedded-core-layers/meta-kde.git
@@ -125,6 +128,5 @@
 
 
 
-[submodule "meta-jetson-tk1"]
-	path = meta-jetson-tk1
-	url = https://github.com/cubicool/meta-jetson-tk1.git
+
+
